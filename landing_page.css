@@ -1,0 +1,145 @@
+/* General reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #6b8e23;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    margin-top: 30px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    padding: 12px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Services Section Styles */
+#services {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}

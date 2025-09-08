@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University Rigistration form</h1>
+    <p>Please fill out the form</p>
+    <hr>
+
+    <h1>Personal Details</h1>
+    <form>
+        <label> First Name:</label>
+        <input type="text" name="firstname" placeholder="e.g:Rohit" required>
+        <br><br>
+        <label>Last Name:</label>
+        <input type="text" name="last name" placeholder="e.g:Negi">
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <h1>Gender</h1>
+        <label>Male</label>
+        <input type="checkbox" name="Male">
+        <br>
+        <label>Female</label>
+        <input type="checkbox" name="Female">
+        <br>
+        <label>Other</label>
+        <input type="checkbox" name="other">
+
+        <h1>Upload Your photo</h1>
+        <input type="file" name="photo">
+        <hr>
+        <h1>Course Information</h1>
+        <label>Email Address</label>
+        <input type="email" name="email address" placeholder="email">
+        <br><br>
+        <label>Phone</label>
+        <input type="number" name="phone" placeholder="number">
+        <br><br>
+        <label>Mailing Adderess</label>
+        <br>
+        <textarea name="Address" id="Address" rows="10" cols="30"></textarea>
+        <hr>
+        <h1>Academic information</h1>
+        <p>Select your course</p>
+        <select name="course" id="course">
+            <option value="bca">BCA</option>
+            <option value="bsc">BSC</option>
+            <option value="bcom">BCOM</option>
+            <option value="ba">BA</option>
+            <option value="btech">BTECH</option>
+        </select>
+        <br><br>
+        <h1>Extracurriculam Activities</h1>
+        <label>Sports</label>
+        <input type="checkbox" name="sports">
+        <br>
+        <label>Music</label>
+        <input type="checkbox" name="music">
+        <br>
+        <label>Dance</label>
+        <input type="checkbox" name="dance">
+        <br>
+        <label>technology</label>
+        <input type="checkbox" name="technology">
+        <h1>Create your account</h1>
+        <label>Password</label>
+        <input type="password" name="password" placeholder="password">
+        <br><br>
+        <label>Security Answer</label>
+        <input type="text" name="security Answer" placeholder="Answer" >
+        <hr>
+        <input type="submit" value="Submit">
+        <input type="clear form" value="Clear form">
+    </form>
+</body>
+</html>
