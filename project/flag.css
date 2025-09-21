@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: olive;
+}
+
+.flag{
+    width:400px;
+    height:300px;
+    position:relative;
+    top:200px;
+    left:550px;
+}
+.color1{
+    background-color: orange;
+    width:400px;
+    height:100px;
+}
+.color2{
+    background-color: white;
+    width:400px;
+    height:100px;
+}
+.color3{
+    background-color: green;
+    width:400px;
+    height:100px;
+}
+.color2 img{
+    position:relative;
+    top:0px;
+    left:150px;
+    border-radius:50%;
+}
